@@ -1,3 +1,8 @@
 27:48 in https://www.youtube.com/watch?v=doyHvOl95Fs&t=83s
 Want to be able to run npm run start, so need AWS IAM, https://docs.serverless-stack.com/managing-iam-credentials#loading-credentials
 Though tutor actually used vim and I can't get that working either
+
+Used:
+https://github.com/aws/aws-cli/issues/1665
+https://forums.aws.amazon.com/message.jspa?messageID=855264 
+
