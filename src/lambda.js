@@ -26,8 +26,8 @@ export async function handler(event) {
   }).promise();
 
   return {
-    statuscode: 200,
+    statusCode: 200,
     body: `Hey, ${name}, you have visited ${count} times.`,
-  }
+  };
 
 }
