@@ -5,7 +5,7 @@ export default class MyStack extends sst.Stack {
     super(scope, id, props);
 
     // Create the table in the DB
-    const table = new sst.Table(this, "Counter", {
+    const table = new sst.Table(this, "VisitCounter", {
       fields: {
         visitor: sst.TableFieldType.STRING,
       },
@@ -21,10 +21,10 @@ export default class MyStack extends sst.Stack {
       defaultFunctionProps: {
         environment: {
           tableName: table.dynamodbTable.tableName,
-        }
-      }
+        },
+      },
     });
-    api.attachPermissions([table])
+    api.attachPermissions([table]);
 
     // Show the endpoint in the output
     this.addOutputs({
