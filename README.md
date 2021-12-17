@@ -1,6 +1,8 @@
 # Getting Started with Serverless Stack (SST)
 
-This project was bootstrapped with [Create Serverless Stack](https://docs.serverless-stack.com/packages/create-serverless-stack).
+This project was bootstrapped with [Create Serverless Stack].
+
+It is a simple project designed to expose API endpoints using serversless stack (SST - (https://docs.serverless-stack.com/packages/create-serverless-stack)) technology.
 
 Start by installing the dependencies.
 
@@ -8,7 +10,13 @@ Start by installing the dependencies.
 $ npm install
 ```
 
-## Commands
+## How to use
+
+To see the server in action, visit https://u1681lwyw2.execute-api.us-east-1.amazonaws.com/visit?name=[yourname] , having replaced [yourname] with your name. Try and use as unique a name as possible. Upon refreshing/revisiting, the tally for your name will increase by one.
+
+To run the code yourself, you'll need to connect SST to your AWS account, run npx sst start, then visit your own API endpoint with a query string.
+
+## SST comments
 
 ### `npm run start`
 
