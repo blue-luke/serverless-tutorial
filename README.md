@@ -10,6 +10,10 @@ Start by installing the dependencies.
 $ npm install
 ```
 
+## Blockers
+
+When returning to the codebase a day later, despite having made no changes, the site cannot be reached. Renaming the table then rebuilding everything worked once, but stoppped working when I ran npx sst start ie the Live lambda Dev environment.
+
 ## How to use
 
 To see the server in action, visit https://u1681lwyw2.execute-api.us-east-1.amazonaws.com/visit?name=[yourname] , having replaced [yourname] with your name. Try and use as unique a name as possible. Upon refreshing/revisiting, the tally for your name will increase by one.
